@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch and Sync
-        uses: joshcai/leetcode-sync@613d94eb38e217150c90c79313a88636ba604d5
+        uses: joshcai/leetcode-sync@master
         with:
           github-token: ${{secrets['LeetCode Token']}}
           leetcode-csrf-token: ${{secrets.LEETCODE_CSRF_TOKEN}}
